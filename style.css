@@ -1,0 +1,326 @@
+/*Author:Pedro Parro*/
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(back.jpg);
+}
+.corp {
+    width: 500px;
+    height: 550px;
+    background: #fff;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.2);
+    margin-top: -20px;
+}
+#h2 {
+    background-color: #c2baba;
+    height: 40px;
+    color: #666;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+.form-corp {
+    display: inline-flex;
+    padding-left: 20px;
+    position: relative;
+    padding: 10px;
+    padding-left: 9%;
+}
+::placeholder {
+    padding-left: 25px;
+}
+/*DATE*/
+.form-corp-date {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.corp-form-date input {
+    width: 225px;
+    height: 17px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+    outline: 0;
+    color: #888585;
+    border: 1px solid #eceff2;
+}
+.corp-form-date input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    filter: invert(0.8);
+    color: #858688;
+}
+.corp-form-date label[for="chegada"] {
+    margin-left: 10px;
+    color: rgb(145, 142, 142);
+}
+.corp-form-date label[for="saida"] {
+    margin-left: 10px;
+    color: rgb(145, 142, 142);
+}
+.center-corp-form-date {
+    margin-left: -35px;
+}
+/*END-DATE*/
+
+/*FORM-CORP-NAMES*/
+.form-corp-names {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    color: rgb(145, 142, 142);
+}
+.corp-form-names label[for="nome"] {
+    padding-left: 10px;
+    text-align: left;
+}
+.corp-form-names label[for="sobrenome"] {
+    padding-left: 10px;
+    text-align: left;
+}
+.corp-form-names input {
+    width: 231px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #eceff2;
+    outline: 0;
+    color: #666;
+    margin: 5px 35px;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+.center-form-corp-names {
+    margin-left: -40px;
+}
+/*END-NAMES*/
+
+/*EMAIL- FONE*/
+.email {
+    margin-top: -10px;
+}
+.email input {
+    width: 475px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #eceff2;  
+    outline: 0;
+    color: #666;
+    margin-top: 5px;
+    margin-left: 9px;
+}
+.fone {
+    margin-top: 10px;
+}
+.fone input {
+    width: 475px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #eceff2;
+    outline: 0;
+    color: #666;
+    margin-top: 5px;
+    margin-left: 9px;
+}
+.email label[for="email"] {
+    margin-left: 10px;
+    color: rgb(145, 142, 142);
+}
+.fone label[for="fone"] {
+    margin-left: 10px;
+    color: rgb(145, 142, 142);
+}
+/*END-EMAIL-FONE*/
+
+/*FORM-CORP-PESSOAS*/
+.form-corp-pessoas {
+    display: inline-flex;
+    padding-left: 20px;
+    position: relative;
+    padding: 10px;
+    padding-left: 9%;
+}
+.qtd-pessoas #adultos {
+    width: 237px;
+    height: 28px;
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 5px;
+    margin-left: -35px;
+    border-radius: 3px;
+    border: 1px solid #eceff2;
+    outline: 0;
+    color: #cec2c2;
+}
+.qtd-pessoas #criancas {
+    width: 237px;
+    height: 28px;
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 5px;
+    margin-left: -35px;
+    border-radius: 3px;
+    border: 1px solid #eceff2;
+    outline: 0;
+    color: #cec2c2;
+}
+.qtd-pessoas label[for="adultos"] {
+    color: rgb(145, 142, 142);
+    margin-left: -35px;
+}
+.qtd-pessoas label[for="criancas"] {
+    color: rgb(145, 142, 142);
+    margin-left: -35px;
+}
+.qtd-center {
+    margin-left: 40px;
+}
+/*END-FORM-CORP-PESSOAS*/
+
+/*PREFERENCIA*/
+.preferencia #preferencia {
+    width: 480px;
+    height: 30px;
+    background: #fff;
+    border-radius: 3px;
+    color: #cec2c2;
+    outline: 0;
+    border: 1px solid #eceff2;
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: -35px;
+}
+.preferencia label[for="preferencia"] {
+    margin-left: -35px;
+    color: rgb(145, 142, 142);
+}
+/*END-PREFERENCIAS*/
+
+/*ICONS*/
+.corp-form-names .fa-user {
+    position: absolute;
+    color: #e3e6eb;
+    top: 30px;
+    left: 15px;
+    
+}
+.corp-form-names .fa-users  {
+    position: absolute;
+    color: #e3e6eb;
+    top: 30px;
+    left: 259px;
+   
+}
+.email i {
+    position: absolute;
+   
+    border:none;
+    background:transparent;
+    outline:none;
+   
+    color: #f1f3f7;
+    top: 248px;
+    left: 15px;
+
+ 
+}
+.fone i {
+    position: absolute;
+    color: #e3e6eb;
+    top: 310px;
+    left: 15px;
+   
+}
+/*END-ICONS*/
+
+/*BUTTON*/
+#btn {
+    width: 100%;
+    height: 40px;
+    margin: 53px 0;
+    background: rgb(252, 7, 7);
+    text-align: center;
+}
+#btn-submit {
+    background: rgb(252, 7, 7);
+    color: #fff;
+    text-align: center;
+    border: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    z-index: 999;
+}
+/*RESPONSIVE*/
+/*500px*/
+@media screen and (max-width: 480px){
+  
+    .corp {
+        width: 400px;
+        margin-left: 20px;
+        margin-top: 0px;
+        margin: 15;
+    }
+    .corp-form-date input {
+        width: 170px;
+    }
+    .corp-form-names input {
+        width: 177px;
+    }
+    .center-form-corp-names {
+        margin-left: -36px;
+    }
+    .email input {
+        width: 370px;
+    }
+    .fone input {
+        width: 370px;
+    }
+    .qtd-pessoas #adultos {
+        width: 185px;
+        margin-left: -28px;
+    }
+    .qtd-pessoas #criancas {
+        width: 185px;
+    }
+    .qtd-center {
+        margin-left: 45px;
+    }
+    .preferencia #preferencia {
+        width: 380px;
+        margin-left: -28px;
+    }
+    .qtd-pessoas label[for="adultos"] {
+        margin-left: -25px;
+    }
+    .qtd-pessoas label[for="criancas"] {
+        margin-left: -35px;
+    }
+    .preferencia label[for="preferencia"] {
+        margin-left: -25px;
+    }
+    .corp-form-names .fa-users  {
+        left: 208px;
+    }
+}
+
